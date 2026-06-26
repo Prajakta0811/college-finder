@@ -1,8 +1,8 @@
 const FEATURED_API =
-  "http://localhost:5000/api/featured-colleges";
+  "http://college-finder-52c0.onrender.com/featured-colleges";
 
 const COLLEGES_API =
-  "http://localhost:5000/api/colleges";
+  "http://college-finder-52c0.onrender.com/colleges";
 let currentPage = 1;
 
 const collegesPerPage = 12;
@@ -341,7 +341,7 @@ if (searchBtn) {
 
         const response =
           await fetch(
-`http://localhost:5000/api/colleges/search?course=${encodeURIComponent(course)}&state=${encodeURIComponent(state)}&college=${encodeURIComponent(college)}`
+`http://college-finder-52c0.onrender.com/colleges/search?course=${encodeURIComponent(course)}&state=${encodeURIComponent(state)}&college=${encodeURIComponent(college)}`
           );
 
         const data =
@@ -607,7 +607,7 @@ if (signupForm) {
         const response =
           await fetch(
 
-"http://localhost:5000/api/signup",
+"http://college-finder-52c0.onrender.com/signup",
 
             {
 
@@ -705,7 +705,7 @@ if (loginForm) {
         const response =
           await fetch(
 
-"http://localhost:5000/api/login",
+"http://college-finder-52c0.onrender.com/login",
 
             {
 
