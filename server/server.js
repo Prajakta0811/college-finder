@@ -407,29 +407,7 @@ app.get("/api/colleges/:id", async (req, res) => {
   }
 
 });
-app.get("/admin/fill-images", async (req, res) => {
-  try {
-    const result = await pool.query(
-      "SELECT id, name FROM colleges WHERE image IS NULL"
-    );
 
-    for (let college of result.rows) {
-      const imageUrl = `https://source.unsplash.com/400x300/?college,${encodeURIComponent(college.name)}`;
-
-      await pool.query(
-        "UPDATE colleges SET image = $1 WHERE id = $2",
-        [imageUrl, college.id]
-      );
-
-      console.log(`Updated: ${college.name}`);
-    }
-
-    res.send("✅ Images updated successfully");
-  } catch (err) {
-    console.error(err);
-    res.status(500).send("Error updating images");
-  }
-});
 /* =========================================================
    START SERVER
 ========================================================= */
