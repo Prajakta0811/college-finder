@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Explore Colleges | College Finder</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+      <!-- LEFT -->
+
+      <div class="nav-left">
+
+        <div class="logo">
+          CollegeFinder
+        </div>
+
+      </div>
+
+      <!-- CENTER -->
+
+      <div class="nav-center">
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="courses.html">
+          Courses
+        </a>
+
+      
+        <a href="colleges.html" class="active-nav">Colleges</a>
+
+        <a href="about.html">
+          About
+        </a>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="nav-right">
+        
+        <button class="login-btn">
+          Login
+        </button>
+        
+      </div>
+
+    </div>
+
+  </nav>
+<section class="colleges-hero">
+
+  <div class="hero-content">
+
+    <h1>Explore Colleges</h1>
+
+    <p>
+      Discover top colleges across India based on
+      course and location.
+    </p>
+
+    <div class="filters">
+
+      <input
+        type="text"
+        id="collegeSearch"
+        placeholder="Search college..."
+      >
+
+      <select id="courseFilter">
+
+        <option value="">All Courses</option>
+        <option value="BTech CSE">BTech CSE</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="BCA">BCA</option>
+        <option value="AI&DS">AI & DS</option>
+        <option value="Business Analytics">Business Analytics</option>
+
+      </select>
+
+      <select id="stateFilter">
+
+        <option value="">All States</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Delhi">Delhi</option>
+
+      </select>
+
+      <button id="searchBtn">
+        Search
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- RESULTS -->
+
+  <section class="results">
+
+    <div class="results-header">
+
+      <h2 id="resultsCount">
+        Available Colleges
+      </h2>
+
+      <p>
+        Browse colleges matching your preferences.
+      </p>
+
+    </div>
+
+    <div
+      id="collegeContainer"
+      class="college-list-grid"
+    >
+    </div>
+
+    <div
+      id="pagination"
+      class="pagination"
+    >
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div>
+
+        <h2>
+          CollegeFinder
+        </h2>
+
+        <p>
+          Search and discover India's
+          best IT & Management colleges.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <a href="#">
+          About
+        </a>
+
+        <a href="#">
+          Courses
+        </a>
+
+        <a href="#">
+          States
+        </a>
+
+        <a href="#">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      © 2026 College Finder India
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

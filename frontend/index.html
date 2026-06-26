@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+    College Finder India
+  </title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <nav class="navbar">
+
+    <div class="nav-container">
+
+      <!-- LEFT -->
+
+      <div class="nav-left">
+
+        <div class="logo">
+          CollegeFinder
+        </div>
+
+      </div>
+
+      <!-- CENTER -->
+
+      <div class="nav-center">
+
+        <a href="index.html" class="active-nav">
+          Home
+        </a>
+
+        <a href="courses.html">
+          Courses
+        </a>
+
+      
+        <a href="colleges.html">Colleges</a>
+
+        <a href="about.html">
+          About
+        </a>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="nav-right">
+        
+        <button class="login-btn">
+          Login
+        </button>
+        
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+
+  <section class="hero">
+
+    <div class="hero-container">
+
+      <h1>
+
+        Search India's Best<br>
+
+        IT & Management Colleges
+
+      </h1>
+
+      <p>
+
+        Discover India's top engineering and management colleges
+
+      </p>
+
+      <a
+    href="colleges.html"
+    class="hero-btn"
+  >
+    Search Colleges
+  </a>
+  <div class="hero-stats">
+
+  <div class="stat-card">
+    <h3>100+</h3>
+    <p>Colleges</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>15+</h3>
+    <p>States</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>5+</h3>
+    <p>Courses</p>
+  </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FEATURED COLLEGES ================= -->
+
+  <section id="featured-colleges" class="featured">
+
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>
+          Featured Colleges
+        </h2>
+
+        <p>
+          Top IT & Management colleges in India
+        </p>
+
+      </div>
+
+      <!-- GRID -->
+
+      <div
+        class="college-grid"
+        id="collegeContainer"
+      >
+
+        <!-- CARD 1 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iitbombay.jpg"
+              alt="IIT Bombay"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              IIT Bombay
+            </h3>
+
+            <p>
+              Mumbai, Maharashtra
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.8
+              </span>
+
+              <span>
+                ₹2.1L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iitdelhi.jpeg"
+              alt="IIT Delhi"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              IIT Delhi
+            </h3>
+
+            <p>
+              Delhi
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.7
+              </span>
+
+              <span>
+                ₹2L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iitmadras.jpg"
+              alt="IIT Madras"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              IIT Madras
+            </h3>
+
+            <p>
+              Chennai, Tamil Nadu
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.9
+              </span>
+
+              <span>
+                ₹2.2L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iitkharagpur.jpg"
+              alt="IIT Kharagpur"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              IIT Kharagpur
+            </h3>
+
+            <p>
+              West Bengal
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.7
+              </span>
+
+              <span>
+                ₹1.9L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 5 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iimbangalore.jpg"
+              alt="IIM Bangalore"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Management
+            </div>
+
+            <h3>
+              IIM Bangalore
+            </h3>
+
+            <p>
+              Bangalore, Karnataka
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.9
+              </span>
+
+              <span>
+                ₹24L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 6 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iimahmedabad.jfif"
+              alt="IIM Ahmedabad"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Management
+            </div>
+
+            <h3>
+              IIM Ahmedabad
+            </h3>
+
+            <p>
+              Gujarat
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.9
+              </span>
+
+              <span>
+                ₹25L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 7 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/iimcalcutta.jfif"
+              alt="IIM Calcutta"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Management
+            </div>
+
+            <h3>
+              IIM Calcutta
+            </h3>
+
+            <p>
+              Kolkata
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.8
+              </span>
+
+              <span>
+                ₹24L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 8 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/vitvellore.jfif"
+              alt="VIT Vellore"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              VIT Vellore
+            </h3>
+
+            <p>
+              Tamil Nadu
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.5
+              </span>
+
+              <span>
+                ₹1.9L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 9 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/manipal.jpg"
+              alt="Manipal University"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              Manipal University
+            </h3>
+
+            <p>
+              Karnataka
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.4
+              </span>
+
+              <span>
+                ₹2.3L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 10 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/srm.jpg"
+              alt="SRM University"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Engineering
+            </div>
+
+            <h3>
+              SRM University
+            </h3>
+
+            <p>
+              Chennai
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.3
+              </span>
+
+              <span>
+                ₹2L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 11 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/christ.jpg"
+              alt="Christ University"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Management
+            </div>
+
+            <h3>
+              Christ University
+            </h3>
+
+            <p>
+              Bangalore
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.4
+              </span>
+
+              <span>
+                ₹1.5L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 12 -->
+
+        <div class="college-card">
+
+          <div class="college-image">
+
+            <img
+              src="assets/symbiosis.jfif"
+              alt="Symbiosis"
+            >
+
+          </div>
+
+          <div class="college-content">
+
+            <div class="card-tag">
+              Management
+            </div>
+
+            <h3>
+              Symbiosis Pune
+            </h3>
+
+            <p>
+              Pune, Maharashtra
+            </p>
+
+            <div class="college-info">
+
+              <span>
+                ⭐ 4.5
+              </span>
+
+              <span>
+                ₹18L/year
+              </span>
+
+            </div>
+
+            <button class="details-btn">
+              Hover for Details
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= PAGINATION ================= -->
+
+<div
+  id="pagination"
+  class="pagination"
+></div>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div>
+
+        <h2>
+          CollegeFinder
+        </h2>
+
+        <p>
+          Search and discover India's
+          best IT & Management colleges.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <a href="#">
+          About
+        </a>
+
+        <a href="#">
+          Courses
+        </a>
+
+        <a href="#">
+          States
+        </a>
+
+        <a href="#">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      © 2026 College Finder India
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

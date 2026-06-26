@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses - College Finder</title>
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR (same as homepage) ================= -->
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <div class="nav-left">
+        <div class="logo">CollegeFinder</div>
+      </div>
+
+      <div class="nav-center">
+        <a href="index.html">Home</a>
+        <a href="courses.html" class="active-nav">Courses</a>
+        <a href="colleges.html">Colleges</a>
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="nav-right">
+        <button class="login-btn">Login</button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ================= HEADER ================= -->
+  <header class="courses-header">
+    <div class="container">
+
+      <h1>Explore Courses</h1>
+      <p>Find colleges based on your career path</p>
+
+      <!-- SEARCH (reusing your global search-box style) -->
+      <div class="search-box">
+  <select id="streamFilter">
+    <option value="all">Select Stream</option>
+    <option value="engineering">Engineering</option>
+    <option value="management">Management</option>
+    <option value="other">Other</option>
+  </select>
+
+  <button id="streamSearchBtn">Search</button>
+</div>
+
+    </div>
+  </header>
+
+  <!-- ================= MANAGEMENT ================= -->
+  <section class="course-section container" data-type="management">
+    <h2>💼 Management Courses</h2>
+
+    <div class="course-grid">
+
+      <div class="course-card">
+        <h3>MBA</h3>
+        <p>Explore top MBA colleges in India</p>
+        <a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>
+      </div>
+
+      <div class="course-card">
+        <h3>BBA</h3>
+        <p>Best undergraduate management programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>Business Analytics</h3>
+        <p>Data-driven business programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>PGDM</h3>
+        <p>Industry-focused management diploma</p>
+        <a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ENGG ================= -->
+  <section class="course-section container" data-type="engineering">
+    <h2>💻 Engineering Courses</h2>
+
+    <div class="course-grid">
+
+      <div class="course-card">
+        <h3>BTech CSE</h3>
+        <p>Computer Science engineering colleges</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>BTech IT</h3>
+        <p>Information Technology programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>AI & Data Science</h3>
+        <p>Future-focused AI & DS programs</p>
+        <a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>
+      </div>
+
+      <div class="course-card">
+        <h3>MCA</h3>
+        <p>Master of Computer Applications</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>BCA</h3>
+        <p>Computer applications undergraduate course</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= OTHER ================= -->
+  <section class="course-section container" data-type="other">
+    <h2>📚 Other Courses</h2>
+
+    <div class="course-grid">
+
+      <div class="course-card">
+        <h3>BCom</h3>
+        <p>Commerce and finance programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>BA</h3>
+        <p>Arts and humanities courses</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>BSc</h3>
+        <p>Science undergraduate programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>Hotel Management</h3>
+        <p>Hospitality and tourism courses</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+      <div class="course-card">
+        <h3>Design</h3>
+        <p>Creative design and arts programs</p>
+<a href="index.html#featured-colleges">
+  <button>View Colleges</button>
+</a>      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+      <div>
+
+        <h2>
+          CollegeFinder
+        </h2>
+
+        <p>
+          Search and discover India's
+          best IT & Management colleges.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <a href="#">
+          About
+        </a>
+
+        <a href="#">
+          Courses
+        </a>
+
+        <a href="#">
+          States
+        </a>
+
+        <a href="#">
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      © 2026 College Finder India
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
