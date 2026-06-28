@@ -17,7 +17,7 @@ async function fetchColleges() {
 
     const isCollegesPage =
       window.location.pathname
-      .includes("colleges.html");
+      .includes("colleges");
 
     const response =
       await fetch(
@@ -80,7 +80,7 @@ function displayColleges(colleges) {
 
   const isCollegesPage =
     window.location.pathname
-    .includes("colleges.html");
+    .includes("colleges");
 
   colleges.forEach((college) => {
 
